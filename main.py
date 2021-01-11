@@ -1,11 +1,11 @@
 from prettytable import PrettyTable
 
 print("=======================================")
-print("Nama : FEBRO HERDYANTO")
-print("NIM : 312010043")
+print("Nama : Mohamad Farizal Arifin")
+print("NIM : 312010231")
 print("Kelas : TI.20.B.1")
 print("Mata Kuliah : Bahasa Pemrograman")
-print("Tugas : Praktikum Lab 6 - Pertemuan 10")
+print("Ujian Akhir Semester 1")
 print("=======================================")
 
 tampunglist = {}
@@ -125,4 +125,4 @@ while True:
     elif pilih == 5:
         break
     else:
-        print("!!! === ERROR! Anda Memasukkan Pilihan yang Salah === !!!")
+        print("!!! === ERROR! Pilihan Yang Anda Masukan Salah === !!!")
