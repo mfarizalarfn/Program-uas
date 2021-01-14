@@ -6,19 +6,26 @@ x = PrettyTable()
 tampunglist = {}
 
 
-def tambah_data():
-    print("========== TAMBAH DATA NILAI MAHASISWA ==========")
-    tnama = input("Masukkan Nama Mahasiswa : ")
-    tnim = input("Masukkan NIM Mahasiswa : ")
-    tampunglist[tnama] = tnim
-
-
-def hapus_data():
+def hapus_data(hxsiapa):
     print("========== HAPUS DATA NILAI MAHASISWA ==========")
+    if hxsiapa in tampunglist.keys():
+        print(f"DATA {hxsiapa} BERHASIL DIHAPUS")
+        del tampunglist[hxsiapa]
+    else:
+        print("!!! === ERROR! DATA TIDAK TERSEDIA === !!!")
 
 
-def cari_data():
+def cari_data(csiapa):
     print("========== CARI DATA NILAI MAHASISWA ==========")
+    if csiapa in tampunglist.keys():
+        print(tampunglist.keys())
+        print(tampunglist.items())
+        print("Nama\t\t: ", tampunglist[csiapa])
+        print("NIM\t\t: ", tampunglist[csiapa][0])
+        print("Nilai Tugas\t: ", tampunglist[csiapa][1])
+        print("Nilai UTS\t: ", tampunglist[csiapa][2])
+        print("Nilai UAS\t: ", tampunglist[csiapa][3])
+        print("Nilai Akhir\t: ", tampunglist[csiapa][4])
 
 
 def ubah_data(xsiapa):
@@ -78,6 +85,6 @@ def ubah_data(xsiapa):
                 x.add_row([i, tdata[0], tdata[1][0], tdata[1][1], tdata[1][2], tdata[1][3], tdata[1][4]])
             print(x)
         else:
-            print("!!! === ERROR! Anda Memasukkan Pilihan yang Salah === !!!")
+            print("!!! === ERROR! Pilihan yang anda masukan salah === !!!")
     else:
         print("!!! === ERROR! DATA TIDAK TERSEDIA === !!!")

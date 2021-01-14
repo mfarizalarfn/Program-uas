@@ -5,15 +5,12 @@ from prettytable import PrettyTable
 # Fungsi : input_data
 
 x = PrettyTable()
-# tampunglist = {}
 
 
-def input_data(tnama='', tnim=''):
-    print("aaa")
-    print(tampunglist.items())
-    print(tampunglist.values())
-    # print(tampunglist[tnama])
-    print("FORM INPUT DATA NILAI")
+def tambah_data():
+    print("========== TAMBAH DATA NILAI MAHASISWA ==========")
+    tnama = input("Masukkan Nama Mahasiswa : ")
+    tnim = int(input("Masukkan Nomor Induk Mahasiswa : "))
     ttugas = int(input("Masukkan Nilai Tugas Mahasiswa : "))
     tuts = int(input("Masukkan Nilai UTS Mahasiswa : "))
     tuas = int(input("Masukkan Nilai UAS Mahasiswa : "))
