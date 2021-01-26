@@ -183,3 +183,5 @@ Berikut ini saya akan menampilkan hasil program atau merunning program yang tela
 ![hasil-4](pict/4.PNG)<br>
 * Hapus Data<br>
 ![hasil-3](pict/3.PNG)<br>
+<br>
+Sekian penjelasan Program yang telah saya buat guna untuk memenuhi Tugas UAS pada semester 1. Terima kasuh..
