@@ -172,6 +172,14 @@ while True:
     else:
         print("!!! === ERROR! Pilihan yang anda masukan salah === !!!")
 ```
+<br>
+
 Berikut ini saya akan menampilkan hasil program atau merunning program yang telah saya buat seperti diatas<br>
 * Tambah Data berikut hasilnya <br>
 ![hasil-1](pict/1.PNG)<br>
+* Ubah Data <br>
+![hasil-2](pict/2.PNG)<br>
+* Cari Data<br>
+![hasil-4](pict/4.PNG)<br>
+* Hapus Data<br>
+![hasil-3](pict/3.PNG)<br>
