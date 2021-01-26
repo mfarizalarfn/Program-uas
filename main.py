@@ -30,4 +30,4 @@ while True:
         print("========== ANDA KELUAR DARI APLIKASI ==========")
         break
     else:
-        print("!!! === ERROR! Pilihan yang anda masukan salah === !!!")
+        print("!!! === ERROR! Pilihan yang1 anda masukan salah === !!!")

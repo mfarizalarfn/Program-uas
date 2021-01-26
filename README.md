@@ -136,7 +136,7 @@ def tambah_data():
 * Berikut program view_nilai<br>
 ```python
 ```
-* Berikut program main.py yang telah saya buat untuk menyatukan module/sub program atau program utama agar program bisa jalan dengan baik<br>
+* Berikut program main.py yang telah saya buat untuk menyatukan package module/sub program atau program utama agar program bisa jalan dengan baik<br>
 ```python
 from model.daftar_nilai import ubah_data, hapus_data, cari_data
 from view.input_nilai import tambah_data
@@ -172,4 +172,6 @@ while True:
     else:
         print("!!! === ERROR! Pilihan yang anda masukan salah === !!!")
 ```
-
+Berikut ini saya akan menampilkan hasil program atau merunning program yang telah saya buat seperti diatas<br>
+* Tambah Data berikut hasilnya <br>
+![hasil-1](pict/1.PNG)<br>
